@@ -122,9 +122,67 @@
         "dateAddedEpoch": 1666553897,
         "mtbURL": "https://www.youtube.com/watch?v=-3CciQOyjcY",
         "topic5Scenic": true
+    },
+    {
+        "articleId": 318,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=ZnXYySp0eCU",
+        "topic5Scenic": true,
+        "topic2Downhill": true
+    },
+    {
+        "articleId": 319,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=oQDLAoPs-as",
+        "topic5Scenic": true,
+        "topic2Downhill": true,
+        "topic3Tech": true
+    },
+    {
+        "articleId": 320,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=q5Jow65eRDg",
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 321,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=TNhUeglDfDQ",
+        "topic5Scenic": true,
+        "topic2Downhill": true
+    },
+    {
+        "articleId": 322,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=CHdN82aOkTo",
+        "topic5Scenic": true,
+        "topic2Downhill": true,
+        "topic3Tech": true
+    },
+    {
+        "articleId": 323,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=qeT5K2tXnIk",
+        "topic4Maint": true
+    },
+    {
+        "articleId": 324,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=4XlusA2Thpo",
+        "topic4Maint": true
+    },
+    {
+        "articleId": 325,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=YhdWc35hRhE",
+        "topic4Maint": true
+    },
+    {
+        "articleId": 326,
+        "dateAddedEpoch": 1666753976,
+        "mtbURL": "https://www.youtube.com/watch?v=BNU7suaJwmA",
+        "topic4Maint": true
     }
-  
-  
     
-    
+  
 ]
