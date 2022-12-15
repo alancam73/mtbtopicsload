@@ -774,6 +774,85 @@
         "topic2Downhill": true,
         "topic5Scenic": true,
         "topic3Tech": true
+    },
+    
+    {
+        "articleId": 430,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=rrNOBZho-oE",
+        "topic1Jumping": true,
+        "topic2Downhill": true,
+        "topic3Tech": true
+    },
+    {
+        "articleId": 431,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=L84_8N58-CQ",
+        "topic1Jumping": true,
+        "topic2Downhill": true,
+        "topic3Tech": true
+    },
+    {
+        "articleId": 432,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=-oRjHKD8Sbk",
+        "topic1Jumping": true,
+        "topic2Downhill": true,
+        "topic3Tech": true
+    },
+    {
+        "articleId": 433,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=O5AEz9IUyNY",
+        "topic2Downhill": true,
+        "topic5Scenic": true,
+        "topic3Tech": true
+    },
+    {
+        "articleId": 434,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=Bcr7d5VZjj0",
+        "topic2Downhill": true,
+        "topic5Scenic": true,
+        "topic3Tech": true,
+        "topic1Jumping": true
+    },
+    {
+        "articleId": 435,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=WYdf72ThPH8",
+        "topic1Jumping": true,
+        "topic2Downhill": true,
+        "topic3Tech": true
+    },
+    {
+        "articleId": 436,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=6gvNp3dgavM",
+        "topic4Maint": true
+    },
+    {
+        "articleId": 437,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=VgSRoQULvvI",
+        "topic4Maint": true
+    },
+    {
+        "articleId": 438,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=J7GXupivCrs",
+        "topic1Jumping": true,
+        "topic5Scenic": true,
+        "topic4Maint": true
+    },
+    {
+        "articleId": 439,
+        "dateAddedEpoch": 1671081405,
+        "mtbURL": "https://www.youtube.com/watch?v=AIFO8slEQEI",
+        "topic1Jumping": true,
+        "topic2Downhill": true,
+        "topic3Tech": true,
+        "topic4Maint": true
     }
     
     
