@@ -2618,7 +2618,80 @@
         "topic3Tech": true,
         "topic2Downhill": true,
         "topic5Scenic": true
+    },
+    
+    {
+        "articleId": 710,
+        "dateAddedEpoch": 1689454280,
+        "mtbURL": "https://www.youtube.com/watch?v=emIP6hqLxOY",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 711,
+        "dateAddedEpoch": 1689454280,
+        "mtbURL": "https://www.youtube.com/watch?v=_ZigvgUUBw4",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 712,
+        "dateAddedEpoch": 1689454280,
+        "mtbURL": "https://www.youtube.com/watch?v=1UxAO90_f6M",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 713,
+        "dateAddedEpoch": 1689454280,
+        "mtbURL": "https://www.youtube.com/watch?v=9dkHLOtFKWw",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 714,
+        "dateAddedEpoch": 1689454280,
+        "mtbURL": "https://www.youtube.com/watch?v=rAAvreX_fcQ",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 715,
+        "dateAddedEpoch": 1689454280,
+        "mtbURL": "https://www.youtube.com/watch?v=LQEPfp7xh5E",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 716,
+        "dateAddedEpoch": 1689454280,
+        "mtbURL": "https://www.youtube.com/watch?v=EmJG2xBFM5U",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
     }
+    
+    
     
     
     
