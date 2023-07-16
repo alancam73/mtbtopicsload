@@ -339,15 +339,19 @@
         "topic2Downhill": true,
         "topic5Scenic": true,
         "topic3Tech": true
-    },    
+    },
+    
+    
     {
         "articleId": 349,
         "dateAddedEpoch": 1667704270,
-        "mtbURL": "https://www.youtube.com/watch?v=sknHp4YYeqA",
+        "mtbURL": "https://www.youtube.com/watch?v=odmspjFmBA4",
         "topic2Downhill": true,
         "topic5Scenic": true,
         "topic3Tech": true
     },   
+    
+    
     {
         "articleId": 350,
         "dateAddedEpoch": 1667704270,
