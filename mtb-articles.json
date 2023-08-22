@@ -2896,7 +2896,29 @@
         "topic3Tech": true,
         "topic2Downhill": true,
         "topic5Scenic": true
+    },
+    
+    {
+        "articleId": 750,
+        "dateAddedEpoch": 1692670064,
+        "mtbURL": "https://www.youtube.com/watch?v=-20zr06ok6A",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
+    },
+    {
+        "articleId": 751,
+        "dateAddedEpoch": 1692670064,
+        "mtbURL": "https://www.youtube.com/watch?v=oh4vY4FlgjY",
+        "topic4Maint": true,
+        "topic1Jumping": true,
+        "topic3Tech": true,
+        "topic2Downhill": true,
+        "topic5Scenic": true
     }
+    
     
     
     
