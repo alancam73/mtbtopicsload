@@ -40,6 +40,7 @@ def lambda_handler(event, context):
    # parse file
    objects = json.loads(data)
    
+   # Note - we catch the err but dont print it as lambda duration may get too long and timeout
    for object in objects:
       articleId = object["articleId"]
       try:
@@ -49,7 +50,8 @@ def lambda_handler(event, context):
          print("put_item: articleId=", articleId, " succeeded")
       except ClientError as e:
          if e.response['Error']['Code'] == 'ConditionalCheckFailedException':
-             print("put_item: articleId=", articleId, " failed (or duplicate)")
+             # print("put_item: articleId=", articleId, " failed (or duplicate)")
+             pass
    
    return None       
 
