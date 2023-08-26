@@ -49,9 +49,9 @@ def lambda_handler(event, context):
                               )
          print("put_item: articleId=", articleId, " succeeded")
       except ClientError as e:
-         if e.response['Error']['Code'] == 'ConditionalCheckFailedException':
+         #if e.response['Error']['Code'] == 'ConditionalCheckFailedException':
              # print("put_item: articleId=", articleId, " failed (or duplicate)")
-             pass
+         pass
    
    return None       
 
