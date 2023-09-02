@@ -10,9 +10,8 @@ import argparse
 
 
 
-client=boto3.client('dynamodb')
-articles_table = 'mtbTopics-Articles-Topics'
-
+dynamodbtbl=boto3.resource('dynamodb')
+articles_table = dynamodbtbl.Table('mtbTopics-Articles-Topics')
 
 # main lambda function handler
 def lambda_handler(event, context):
@@ -41,33 +40,20 @@ def lambda_handler(event, context):
    # parse file
    objects = json.loads(data)
    
-   response = client.scan(TableName=articles_table,
-                          ProjectionExpression='articleId')['Items']
-   articleIdList = []
-   for i in response:
-      articleIdList.append(int(i['articleId']['N']))
-                          
-   fresh_articles = []
-   for obj in objects:
-      if obj["articleId"] not in articleIdList:
-         fresh_articles.append(obj)
-                          
-   # print (fresh_articles)
-   
-   # we create a dynamodb table resource because its easier to put items (no types required)
-   # put NEW items in Articles table
-   dynamodbtbl=boto3.resource('dynamodb')
-   artTblRes = dynamodbtbl.Table(articles_table)
-   for obj in fresh_articles:
-      articleId = obj["articleId"]
+   # Note - we catch the err but dont print it as lambda duration may get too long and timeout
+   for object in objects:
+      articleId = object["articleId"]
       try:
-         artTblRes.put_item(Item=obj)
+         articles_table.put_item(Item=object,
+                               ConditionExpression=Attr('articleId').ne(articleId) | Attr('articleId').not_exists()
+                              )
          print("put_item: articleId=", articleId, " succeeded")
       except ClientError as e:
-         print("put_item: articleId=", articleId, " failed")
+         #if e.response['Error']['Code'] == 'ConditionalCheckFailedException':
+             # print("put_item: articleId=", articleId, " failed (or duplicate)")
+         pass
    
-   return None
-   
+   return None       
 
 
 # allow local Python execution testing
